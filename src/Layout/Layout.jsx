@@ -12,8 +12,6 @@ function Layout({ children }) {
   return (
     <>
       <header className={styles.header}>
-       
-
         <Link to="/products">جمعه بازار</Link>
         <Link to="/checkout">
           <div>

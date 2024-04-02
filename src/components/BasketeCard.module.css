@@ -37,3 +37,18 @@
   border-radius: 8px;
   cursor: pointer;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+  .card{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 130px;
+  }
+  .card p{
+    width: 50px;
+    display: none;
+  }
+  .action{
+    margin-top: 8px;
+  }
+}

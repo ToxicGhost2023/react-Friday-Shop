@@ -68,4 +68,12 @@
   height: 50px;
   margin-bottom: 8px;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    width:440px;
+  }
+  .footer {
+    width: 440px;
+  }
+}
 

@@ -15,7 +15,7 @@ const CheckoutPage = () => {
     return (
       <div className={styles.container}>
         <p style={{ fontSize: 30,fontWeight:700 }}>Empty😢</p>
-        <img src={Basket} alt={Basket} style={{ marginRight:100,width:350 }} />
+        <img className={styles.img} src={Basket} alt={Basket} style={{ marginRight:100,width:350 }} />
       </div>
     );
   }
@@ -32,7 +32,7 @@ const CheckoutPage = () => {
           />
         ))}
       </div>
-      <img src={images} alt={images} style={{ marginLeft: 10, width: 100 }} />
+      <img className={styles.image} src={images} alt={images} style={{ marginLeft: 10, width: 100 }} />
     </div>
   );
 };
