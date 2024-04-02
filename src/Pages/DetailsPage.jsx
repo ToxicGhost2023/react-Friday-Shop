@@ -35,9 +35,9 @@ const DetailsPage = () => {
           <span className={styles.price}>
             <IoMdPricetag /> {productsDetails.price}$
           </span>
-          <Link to="/products">
+          <Link to="/products" className={styles.link}>
             <IoArrowBackCircleOutline />
-            <span> Back to shop😘</span>
+            <span className={styles.span}> Back to shop😘</span>
           </Link>
         </div>
         <button className={styles.heart} onClick={likeHandler}>

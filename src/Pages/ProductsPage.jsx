@@ -13,7 +13,6 @@ import {
 } from "../helper/helper";
 import SideBar from "../components/SideBar";
 
-
 const ProductsPage = () => {
   const products = useProducts();
 

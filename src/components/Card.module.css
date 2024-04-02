@@ -70,7 +70,7 @@
   background-color: #032174;
 }
 @media (min-width: 320px) and (max-width: 480px) {
-  .card {
+  .card {  
   width: auto;
   background-color: none;
   }
