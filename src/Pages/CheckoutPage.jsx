@@ -14,8 +14,8 @@ const CheckoutPage = () => {
   if (!state.itemsCounter) {
     return (
       <div className={styles.container}>
-        <p style={{ fontSize: 50 }}>Empty😢</p>
-        <img src={Basket} alt={Basket} style={{ marginLeft: 200 }} />
+        <p style={{ fontSize: 30,fontWeight:700 }}>Empty😢</p>
+        <img src={Basket} alt={Basket} style={{ marginRight:100,width:350 }} />
       </div>
     );
   }
@@ -32,7 +32,7 @@ const CheckoutPage = () => {
           />
         ))}
       </div>
-      <img src={images} alt={images} style={{ marginLeft: 30 }} />
+      <img src={images} alt={images} style={{ marginLeft: 10, width: 100 }} />
     </div>
   );
 };
