@@ -1,0 +1,79 @@
+.cantainer {
+  display: flex;
+  align-items: flex-start;
+  min-height: 1000px;
+  width: 100%;
+}
+.cantainer img {
+  box-shadow: rgb(4, 20, 198) 1px 1px 9px;
+  width: 300px;
+  padding: 15px 25px;
+  background-color: #fff;
+  border: 2px solid #4261fe;
+  border-radius: 50px;
+  margin: 10px;
+  margin-right: 50px;
+}
+.information {
+  box-shadow: rgb(4, 20, 198) 1px 1px 9px;
+  width: 100%;
+  border: 2px solid #4261fe;
+  margin: 10px;
+  padding: 25px;
+  border-radius: 50px;
+}
+.information h3 {
+  color: #4261fe;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+.description {
+  color: gray;
+  font-weight: 600;
+  width: 500px;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+.category {
+  margin-bottom: 10px;
+}
+.category svg,
+.information span svg {
+  color: #4261fe;
+  margin-right: 10px;
+}
+.information div {
+  display: flex;
+  justify-content: space-between;
+}
+.information a {
+  display: flex;
+  align-items: center;
+  background-color: #4261fe;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 10px;
+}
+.information a svg {
+  margin-right: 10px;
+}
+.information a:hover {
+  transition: 0.3s all ease-in-out;
+  background-color: #0321b9;
+}
+.heart {
+position: relative;
+  background-color: #fff;
+  border: none;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.heart:focus {
+  color: red;
+}
+.heart span {
+    position: absolute;
+    top:4px;
+  margin-left: 7px;
+  font-size: 1rem;
+}
